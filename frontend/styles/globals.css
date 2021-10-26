@@ -1,0 +1,27 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+  background-color: rgb(242,242,242) !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+.content {
+  max-width: 640px;
+  width: 100%;
+  margin: auto;
+}
+
+.container {
+  padding-top: 50px;
+}
