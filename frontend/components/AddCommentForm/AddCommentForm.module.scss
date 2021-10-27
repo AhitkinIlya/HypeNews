@@ -1,0 +1,28 @@
+.form {
+    position: relative;
+    padding: 10px 17px !important;
+    background-color: #f7f7f7;
+    border: 3px solid rgba(0, 0, 0, .03);
+    border-radius: 10px;
+    margin-top: 15px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer !important;
+    margin-bottom: 30px;
+
+    &:hover {
+        border: 3px solid rgb(244, 164, 96, 0.4);
+    }
+}
+
+.fieldRoot {
+
+    &:after, &:before {
+        display: none;
+    }
+}
+
+.addButton {
+    opacity: 0.7;
+    margin-top: 10px !important;
+    margin-left: 500px !important;
+}

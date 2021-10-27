@@ -18,9 +18,11 @@ export const Header: React.FC = () => {
                 <IconButton>
                     <MenuIcon />
                 </IconButton>
-                    <div className={styles.logoBlock}>
-                        <img className={styles.logo} src="/static/img/HypeNewsLogo.png" alt=""/>
-                    </div>
+                <Link href="/">
+                    <a className={styles.logo}>
+                        HypeNews
+                    </a>
+                </Link>
                 <div className={ styles.searchBlock }>
                     <SearchIcon />
                     <input placeholder="Поиск"/>
@@ -37,12 +39,14 @@ export const Header: React.FC = () => {
                 <IconButton>
                     <AlertIcon />
                 </IconButton>
-                <Avatar 
-                    className={styles.avatar}
-                    alt="Аватарка"
-                    src="https://sun9-12.userapi.com/impg/CBZQatkNC_mRSw12N2-CV-6Hl-fq4KuHwmvLFg/7TTrwEBZxWQ.jpg?size=802x1080&quality=96&sign=d6e8c6710e141a5f56abe27ba61e7720&type=album"
-                />
-                <ArrowIcon />
+                <div className={ styles.profile }>
+                    <Avatar 
+                        className={styles.avatar}
+                        alt="Аватарка"
+                        src="https://sun9-12.userapi.com/impg/CBZQatkNC_mRSw12N2-CV-6Hl-fq4KuHwmvLFg/7TTrwEBZxWQ.jpg?size=802x1080&quality=96&sign=d6e8c6710e141a5f56abe27ba61e7720&type=album"
+                    />
+                    <ArrowIcon />
+                </div>
             </div>
         </Paper>
     )

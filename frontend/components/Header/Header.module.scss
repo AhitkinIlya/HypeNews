@@ -3,26 +3,25 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(227,120,117) !important;
-    padding: 0 40px 0 10px;
-    height: 100px;
-    margin-bottom: 15px;
+    background-color: #fff !important;
+    padding: 0 20px;
+    height: 70px;
     position: fixed;
     z-index: 1;
 }
 
 .logo {
-    width: 80px;
-    height: 80px;
-    margin-right: 25px;
-    margin-left: 10px;
-
-    border-radius: 50%;
+    // background: linear-gradient(90deg, rgba(228,88,88,1) 0%, rgba(246,100,100,1) 35%, rgba(0,255,252,1) 100%);
+    background: linear-gradient(90deg, rgba(37,36,36,1) 0%, rgba(126,120,120,1) 35%, rgba(199,201,201,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-left: 5px;
+    cursor: pointer;
 }
 
-.logoBlock {
-    border-radius: 50% !important;
-}
 
 .penButton {
     display: flex;
@@ -36,7 +35,7 @@
 
 .searchBlock {
     position: relative;
-    margin-right: 15px;
+    margin-right: 50px;
     width: 300px;
     cursor: pointer;
     svg {
@@ -63,6 +62,12 @@
             border-color: rgba(0, 0, 0, 0.3);
         }
     }
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 .avatar {
