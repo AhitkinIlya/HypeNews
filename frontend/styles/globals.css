@@ -23,5 +23,11 @@ a {
 }
 
 .container {
-  padding-top: 50px;
+  padding: 25px;
+}
+
+.wrapper {
+  display: flex;
+  padding: 0 30px;
+  padding-top: 90px;
 }
